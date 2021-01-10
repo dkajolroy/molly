@@ -16,8 +16,11 @@
     }
 }
 @media (max-width : 990px){
-    .portfolio .mem img:nth-child(9){
-        display: none;
+    .portfolio .mem img{
+        width: 30%;
+    }
+    .portfolio .midl p {
+        font-size: 11px;
     }
 }
 @media all and (max-width : 1090px){
@@ -28,26 +31,24 @@
         top: 80px;
     }
     .skill .mid{
-        width: 100%;
+        width: 90%;
         margin: auto;
-        padding: 30px;
     }
     .skill .right{
         text-align: center;
-        width: 90%;
-        float: left;
+        width: 100%;
         overflow: hidden;
         text-align: center;
     }
     .skill .left{
  
-        width: 55%;
+        width: 90%;
         float: none;
         margin: auto;
         overflow: hidden;
     }
     .skill .left .poin{
-        width:90%;
+        width:100%;
     }
 }
 @media all and (max-width : 950px){
@@ -61,7 +62,7 @@
 @media all and (max-width : 882px){
     .shadow .right p{
         color: white;
-        width: 100%;
+        width: 90%;
         font-size: 12px;
         margin: 0px 0px 30px;
     }
@@ -80,6 +81,7 @@
         overflow: hidden;
         text-align: center;
         margin: auto;
+        width: 90%;
     }
     .video .left{
         width: auto;
@@ -106,11 +108,23 @@
     .service h1{
         font-size: 40px;
     }
+    .portfolio{
+        padding: 10px 0;
+    }
     .portfolio .midl h1{
         font-size: 40px;
+        margin: 10px 0;
     }
     .about .top h1{
-        font-size: 20px;
+        font-size: 25px;
+    }
+    .blog h1 {
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+    .blog p {
+        font-size: 13px;
+        margin-top: 0;
     }
 }
 @media all and (max-width : 700px){
@@ -141,15 +155,29 @@
     header nav li:hover{
         background-color: rgb(255, 255, 255);
     }
+    .molly h3 {
+        text-transform: uppercase;
+        font-size: 25px;
+    }
     
 }
 @media all and (max-width : 751px){
     .shadow img{
         position: absolute;
-        width: 150px;
-        left: 10%;
-        top: 250px;
+        width: 200px;
+        left: 7%;
+        top: 112px;
     }
+    .shadow .right ul li{
+        margin: 2px 5px;
+        font-size: 8px;
+    }
+    .shadow .right ul li i {
+    font-size: 5px;
+    padding: 5px;
+    margin-right: 3px;
+    }
+   
     .contact p{
         width: 90%;
         margin: auto;
@@ -158,11 +186,23 @@
     .contact .input input{
         display:block;
         margin: 10px auto;
-
+        width: 70%;
+    }
+    .contact {
+        padding: 20px 0px;
+    }
+    .contact h1 {
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+    .contact p {
+        width: 80%;
+        margin: auto;
+        font-size: 13px;
     }
 
     .contact .input textarea{
-        width: 90%;
+        width: 80%;
         display: block;
         margin: 20px auto;
       
@@ -179,15 +219,25 @@
     }
     .about .center article{
         font-size: 13px;
+        text-align: center;
     }
     .about .center .last i{
         margin: auto;
+        font-size: 13px;
+        padding: 5px;
+    }
+    .about .top p {
+        width: 80%;
+        margin: auto;
+        font-size: 13px;
+        color: rgb(104, 104, 104);
     }
     .video article{
         font-size: 13px;
     }
     .skill p{
-        font-size: 13px;
+        font-size: 10px;
+        width: 100%;
     }
 }
 @media all and (max-width : 560px){
@@ -200,6 +250,14 @@
     .section h2{
         font-size: 13px;
     }
+    .portfolio .midl ul li a {
+        text-transform: uppercase;
+        padding: 5px;
+        font-size: 12px;
+    }
+    .portfolio .midl ul {
+        margin: 20px 0px;
+    }
  
 }
 @media all and (max-width : 1050px){
@@ -211,17 +269,8 @@
 @media all and (max-width : 900px){
     .section{
         width: 40%;
-        margin: 10px;
-    }
-    .molly{
-        overflow: hidden;
-        text-align: center;
-        background-color: rgb(66, 82, 99);
-        padding: 50px 0px 300px;
-        color: white;
-        background-size: 600px;
-        background-repeat: no-repeat;
-        background-position: center 120%;
+        margin: 5px;
+        padding: 0;
     }
     
 }
@@ -266,24 +315,30 @@
         margin: 20px auto;
         float: right;
     }
-    .in .left{
-        width: 40%;
-        float: left;
-        overflow: hidden;
-        margin-right: 20px;
-    }
 }
     
 @media all and (max-width : 650px){
-    .molly{
+    .shadow img{
+        position: absolute;
+        width: 140px;
+        left: 7%;
+        top: 130px;
+    }
+    .bottom {
+        padding: 10px 0px;
+        background-color: rgb(255, 225, 0);
         overflow: hidden;
-        text-align: center;
-        background-color: rgb(66, 82, 99);
-        padding: 50px 0px 300px;
+    }
+    .shadow .right h1 {
+        font-size: 20px;
+        color: yellow;
+        margin: 10px auto 10px;
+    }
+    .shadow .right p {
         color: white;
-        background-size: 400px;
-        background-repeat: no-repeat;
-        background-position: center 110%;
+        width: 90%;
+        font-size: 11px;
+        margin: 0px 0px 30px;
     }
 }
 
@@ -297,5 +352,87 @@
         width: 40%;
         float: left;
         overflow: hidden;
+    }
+}
+
+@media all and (max-width : 500px){
+    .shadow img{
+        position: absolute;
+        width: 120px;
+        left: 7%;
+        top: 180px;
+    }
+    .molly h3 {
+        font-size: 18px;
+    }
+    .molly p {
+        font-size:10px;
+    }
+    .blog .sec-1 {
+        width: 40%;
+        margin: 0px 5px;
+    }
+    .blog .sec-1 article {
+        font-size: 9px;
+    }
+    .bottm .sec-2 article {
+        font-size: 9px;
+    }
+}
+@media all and (max-width : 660px){
+    .mem img {
+        width: 150px;
+    }
+    .mem a {
+        margin: 10px auto;
+        font-size: 13px;
+        padding: 5px;
+    }
+
+}
+@media all and (max-width : 420px){
+    .portfolio .mem img {
+        width: 28%;
+        margin: 3px;
+    }
+    .portfolio .midl ul li a {
+        padding: 10px;
+        font-size: 12px;
+    }
+    .portfolio .midl ul {
+        margin: 10px 0px;
+    }
+    .video .left video {
+        width: 90%;
+    }
+    .in .right {
+        margin-left: 5px;
+    }
+    .midel > a {
+        width: 150px;
+        padding: 5px;
+        font-size: 12px;
+        margin: 20px auto;
+    }
+    .subs input {
+        padding: 5px 15px;
+    }
+    .subs input[type="text"] {
+        padding: 5px 20px;
+        margin-right: 5px;
+    }
+    .contact .input a {
+        width: 100px;
+        padding: 10px;
+        font-size: 13px;
+    }
+}
+@media all and (max-width : 300px){
+    .portfolio .midl ul {
+        margin: 5px 0px;
+    }
+    .portfolio .midl ul li a {
+        padding: 5px;
+        font-size: 10px;
     }
 }
