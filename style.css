@@ -1,0 +1,729 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+header{
+    overflow: hidden;
+    background-image: url(images/menulogo.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+}
+header menu{
+    display: none;
+}
+header ul{ 
+    list-style: none;
+    margin: auto;
+    text-align: center;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 20px 20px;
+    display: block;
+}
+header ul li a:hover{
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+    background: rgb(155, 155, 155);
+}
+.min20{
+    width: 100px;
+}
+/* banar style start from hare */
+.banar{
+    background: url(images/banar.jpg)no-repeat;
+    text-align: center;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+
+}
+.banar .shadow{
+    background-color: rgba(18, 0, 53, 0.489);
+    overflow: hidden;
+    padding: 200px 0px;
+}
+
+.banar span{
+    color:yellow;
+}
+.banar h1{
+    font-size: 60px;
+    margin: 10px 0px;
+}
+.banar article{
+    width: 600px;
+    font-size: 13px;
+    margin: auto;
+}
+.banar a{
+    width: 100px;
+    padding: 8px 15px;
+    background-color: #fff;
+    color: orange;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 30px;
+    margin: 20px auto 0px;
+    display: block;
+}
+.banar a:hover{
+    transition: .2s;
+    color: #000;
+    background-color: yellow;
+}
+/* service style start from here */
+.service {
+    padding: 10px 0px;
+}
+.service .mdl{
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+.service h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    margin: 20px 0px;
+    color: rgb(70, 70, 70);
+}
+.service p{
+    width: 500px;
+    font-size: 13px;
+    margin:10px auto;
+    color: #999;
+}
+.section{
+    width: 24%;
+    padding: 20px 0;
+    text-align: center;
+    display: inline-block;
+}
+.section img{
+    width: 100px;
+    padding: 0 10px ;
+}
+.section h2{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: rgb(84, 84, 84);
+    margin: 5px 0px;
+}
+.section p{
+    width: 80%;
+    padding: 5px 0;
+    font-size: 12px;
+}
+/* Web design style from here */
+.web{
+    position: relative;
+}
+.web .top{
+    background-image: url(images/bb.jpg);
+    overflow: hidden;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position:center;
+    overflow: hidden;
+}
+.web .shadow{
+    background-color: rgba(9, 20, 51, 0.733);
+    overflow: hidden;
+
+}
+.shadow img{
+    position: absolute;
+    width: 300px;
+    left: 15%;
+    top: 80px;
+}
+.shadow .right{
+    width: 50%;
+    float: right;
+}
+.shadow .right h1{
+    font-size: 25px;
+    color: yellow;
+    margin: 30px auto 20px;
+}
+.shadow .right p{
+    width: 90%;
+    color: white;
+    width: 450px;
+    font-size: 12px;
+    margin: 0px 0px 30px;
+}
+.shadow .right ul{
+    color: white;
+    list-style: none;
+    padding: 0px 0px 20px;
+}
+.shadow .right ul li{
+    margin: 15px 20px;
+    font-size: 13px;
+}
+.shadow .right ul li i{
+    font-size: 10px;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+/* botttom */
+.bottom{
+    padding: 20px 0px;
+    background-color: rgb(255, 225, 0);
+    overflow: hidden;
+}
+.bottom a{
+    width: 100px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: orange;
+    display: block;
+    margin: 0px auto;
+    font-size: 13px;
+    border-radius: 30px;
+    background-color: #fff;
+}
+.bottom a:hover{
+    transition: .2s;
+    color: white;
+    background-color: rgb(5, 255, 176);
+}
+.bottom a:active{
+    background-color: rgb(0, 140, 40);
+}
+/* Portfolio section style from here */
+.portfolio {
+    overflow: hidden;
+    padding: 30px 0px
+}
+.midl{
+    width: 72%;
+    margin: auto;
+    text-align: center;
+}
+.portfolio .midl h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: rgb(60, 60, 60);
+}
+.portfolio .midl p{
+    width: 80%;
+    color: rgb(137, 137, 137);
+    font-size: 13px;
+    margin: auto;
+}
+.portfolio .midl ul{
+    list-style: none;
+    text-align: center;
+    margin: 30px 0px;
+}
+.portfolio .midl ul li{
+    display: inline-block;
+}
+.portfolio .midl ul li a{
+    text-transform: uppercase;
+    padding: 5px 15px;
+    display: block;
+    text-decoration: none;
+    color: rgb(86, 86, 86);
+    font-size: 13px;
+}
+.portfolio .midl ul .active, .portfolio .midl ul li a:hover{
+    background-color: rgb(255, 206, 8);
+    color: white;
+    border-radius: 30px;
+}
+/* member images*/
+.mem img{
+    width: 300px;
+    margin: 5px;
+    box-shadow: 0px 0px 5px black;
+}
+.mem a{
+    width: 100px;
+    margin: 30px auto;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(220, 220, 35);
+    padding: 10px 20px;
+    display: block;
+    border-radius: 30px;
+    transition: .2s;
+}
+.mem a:hover{
+    background-color: rgb(20, 158, 232);
+}
+/* video section style start from here */
+.video{
+    background-color: yellow;
+    padding: 20px 0px;
+    overflow: hidden;
+}
+.video .left{
+    float: left;
+    overflow: hidden;
+    width: 50%;
+}
+.video .left video{
+    width: 400px;
+    display: block;
+    float: right;
+    margin: 15px 30px 0px;
+    border-radius: 20px;
+}
+
+.video .right{
+    float: left;
+    overflow: hidden;
+    width: 50%;
+}
+.video .right h3{
+    text-transform: uppercase;
+    margin: 10px 0px;
+}
+.video .right p{
+    margin: 0px 0px 10px;
+    font-style: italic;
+    color: rgb(48, 48, 48);
+}
+.video .right article{
+    width: 500px;
+    color: rgb(150, 150, 150);
+}
+.video .right a{
+    text-transform: uppercase;
+    width: 100px;
+    display: block;
+    padding: 10px;
+    color: black;
+    background-color:#fff;
+    text-decoration:none;
+    border-radius: 30px;
+    font-size: 12px;
+    text-align: center;
+    margin: 30px 0px 0px;
+}
+.video .right a:hover{
+    transition: .2s;
+    color: white;
+    background-color:rgba(56, 117, 222, 0.989);
+}
+/* molly desin start from here */
+.molly{
+    overflow: hidden;
+    text-align: center;
+    background-color: rgb(66, 82, 99);
+    color: white;
+    padding: 20px 0;
+}
+
+.molly h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.molly p{
+    font-style: italic;
+    font-size: 12px;
+    padding: 5px 0px;
+    margin: 5px 0px 30px;
+}
+.molly a{
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+    width: 100px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.molly a:hover{
+    transition: .2s;
+    color: white;
+    background-color: rgb(157, 0, 255);
+}
+.molly a:active{
+    transition: none;
+    background-color: rgb(49, 0, 79);
+}
+.molly .img img{
+    width: 60%;
+    margin: 30px 0 0 0;
+}
+/* About section style from here */
+.about{
+    overflow: hidden;
+}
+.about .top{ 
+    text-align: center;
+    margin: 0px 0px 60px;
+}
+.about .top h1{
+    color: rgb(40, 40, 40);
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.about .top p{
+    width: 600px;
+    margin: auto;
+    color: rgb(104, 104, 104);
+}
+
+/* bottom */
+.bottome{
+    overflow: hidden;
+}
+.in{
+    width: 90%;
+    margin: 0px auto;
+    overflow: hidden;
+}
+.in .left{
+    width: 17%;
+    float: left;
+    overflow: hidden;
+    margin-right: 5px;
+}
+.in .center{
+    width: 55%;
+    float: left;
+    overflow: hidden;
+}
+.in .center h2{
+    color: orange;
+    margin: 10px 0px;
+}
+.in .center p{
+    width: 100%;
+    font-style: italic;
+    margin-bottom: 20px;
+    font-family: 12px;
+}
+.in .center article{
+    color: rgb(123, 123, 123);
+}
+
+.in .right{
+    width: 17%;
+    float: left;
+    overflow: hidden;
+    margin-left: 15px;
+}
+.in img{
+    width: 200px;
+    margin-top: 30px;
+}
+.last{
+    margin: auto;
+    padding: 20px 0px 40px;
+    text-align: center;
+}
+.last i{
+    font-style: 18px;
+    padding: 10px;
+    margin: auto;
+    transition: .5s;
+    border-radius: 50%;
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+}
+.last i:hover{
+    background-color: #000;
+    color: white;
+}
+/* skill section style from here */
+.skill{
+    background-color: rgb(26, 47, 72);
+    overflow: hidden;
+    color: white;
+    padding: 20px 0px;
+}
+.skill .mid{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+}
+.skill .left{
+    width: 50%;
+    float: left;
+    margin-right: 20px;
+    overflow: hidden;
+}
+.skill .left h4{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: yellow;
+    margin: 20px 0px;
+    text-align: center;
+}
+.skill .left p{
+    font-size: 13px;
+    margin: 10px 0px;
+}
+.skill .left .poin{
+    width: 460px;
+    height: 15px;
+    overflow: hidden;
+    border-radius: 30px;
+    background:linear-gradient(to right, yellow 80%, rgb(0, 166, 255));
+}
+.skill .right{
+    width: 45%;
+    float: left;
+    overflow: hidden;
+}
+.skill .right h5{
+    color: yellow;
+    font-size: 20px;
+    margin: 20px 0px;
+}
+/* Blog section style from here */
+.blog{
+    overflow: hidden;
+    text-align: center;
+    background-color: rgb(239, 239, 239);
+}
+.blog h1{
+    text-transform: uppercase;
+    font-size: 45px;
+}
+.blog p{
+    width: 80%;
+    margin: 30px auto;
+}
+.blog .midel{
+    width: 65%;
+    margin: auto;
+}
+.blog .sec-1{
+    display: inline-block;
+    text-align: left;
+    width: 45%;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 0px 10px;
+
+}
+.blog .sec-1 img{
+    width: 100%;
+}
+.blog .sec-1 h2{
+    color: orange;
+    padding: 5px;
+    font-size: 16px;
+    margin-left: 5px;
+}
+.blog .sec-1 p{
+    padding: 0;
+    margin: 0;
+    font-size: 11px;
+    margin:0px 10px;
+}
+.blog .sec-1 span{
+    color: orange;
+}
+.blog .sec-1 article{
+    font-size:12px ;
+    margin:20px 10px 0px;
+    color: rgb(0, 63, 0);
+}
+.blog .sec-1 a{
+    width: 100px;
+    display: block;
+    float: right;
+    text-decoration: none;
+    color: rgb(193, 193, 22);
+    padding: 10px 0px;
+}
+.bottm .sec-2{
+    display: inline-block;
+    text-align: left;
+    width: 29%;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 20px 10px;
+
+}
+.bottm .sec-2 img{
+    width: 100%;
+}
+.bottm .sec-2 h2{
+    color: orange;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.bottm .sec-2 span{
+    color: orange;
+}
+.bottm .sec-2 p{
+    padding: 0;
+    margin: 0;
+    font-size: 11px;
+    margin:5px 10px;
+}
+.bottm .sec-2 article{
+    font-size:12px ;
+    margin: 10px 10px;
+    color: rgb(0, 63, 0);
+}
+.bottm .sec-2 a{
+    width: 100px;
+    display: block;
+    float: right;
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(193, 193, 22);
+    padding: 5px 0px 10px;
+}
+.midel  > a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px ;
+    background-color: orange;
+    border-radius: 30px;
+    margin: 50px auto;
+    display: block;
+    width: 200px;
+    text-transform: uppercase;
+    transition: .2s;
+}
+.midel  > a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(223, 105, 1);
+}
+.midel  > a:active{
+    transition: none;
+    background-color: rgb(62, 32, 0);
+}
+/* Subscraib section style from here */
+.subs{
+    background-color: rgb(252, 223, 5);
+    text-align: center;
+    padding: 20px 0px;
+}
+.subs h1{
+    font-size: 25px;
+    color: white;
+}
+
+.subs input{
+    padding: 10px 40px;
+    border-radius: 30px;
+    font-size: 12px;
+    border: none;
+}
+.subs input[type="text"]{
+    padding: 10px 60px;
+    margin-right: 10px;
+}
+.subs input[type="submit"]:hover{
+    transition: .2s;
+    color: white;
+    background-color: rgb(140, 4, 138);
+}
+/* contact style from here */
+.contact{
+    text-align: center;
+    color: white;
+    padding: 50px 0px;
+    background-color: rgb(45, 68, 78);
+}
+.contact h1{
+    text-transform: uppercase;
+    font-size: 40px;
+
+}
+.contact p{
+    width: 500px;
+    margin: auto;
+    font-size: 13px;
+}
+.contact .input{
+    margin: 50px auto;
+}
+.contact .input input{
+    display: inline-block;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.509);
+    background-color: rgb(45, 68, 78);
+    padding: 10px 27px;
+    border-radius: 5px;
+    margin: 0px 5px; 
+}
+.contact .input textarea{
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    background-color: rgb(45, 68, 78);
+    border: 1px solid rgba(255, 255, 255, 0.509);
+}
+.contact .input a{
+    width: 200px;
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 30px;
+    transition: .2s;
+}
+.contact .input a:hover{
+    color: yellow;
+    background-color: #666;
+}
+.contact .input a:active{
+    background-color: #000;
+}
+/* footer style from here */
+.footer{
+    padding: 50px 0px;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    background-color: rgb(23, 32, 36);
+}
+.footer p{
+    width: 200px;
+    margin: auto;
+    font-size: 13px;
+}
+.footer span{
+    font-size: 13px;
+}
+.footer ul {
+    list-style: none;
+    margin: 20px 0px;
+}
+.footer ul li{
+    display: inline-block;
+
+}
+.footer ul li i{
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    color: #000;
+    font-size: 14px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+}
+.footer ul li i:hover{
+    color: #fff;
+    background-color: rgb(135, 14, 255);
+    transition: .2s;
+}
